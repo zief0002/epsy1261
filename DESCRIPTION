@@ -1,0 +1,15 @@
+Package: epsy1261
+Title: Plotting functions for EPsy 1261
+Version: 0.0.0.9000
+Authors@R: person("Andrew", "Zieffler", email = "zief0002@umn.edu", role = c("aut", "cre"))
+Description: Adds some GUI interactivity to ggplot functions using manipulate. Similar to the mosaic package, but intended for use in EPsy 1261.
+Depends: R (>= 3.3.3)
+Imports:
+    ggplot2,
+    manipulate
+License: GPL (>= 2)
+URL: https://github.com/zief0002/epsy1261
+Repository: github
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
