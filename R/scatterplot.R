@@ -16,7 +16,7 @@ scatterplot = function(data){
   manipulate::manipulate({
 
     # Create and print ggplot
-    p = ggplot(data = data, aes_string(x = X, y = Y)) + geom_point()
+    p = ggplot2::ggplot(data = data, ggplot2::aes_string(x = X, y = Y)) + ggplot2::geom_point()
     print(p)
 
     # Print syntax for button click
