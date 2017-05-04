@@ -5,8 +5,8 @@
 #' @keywords barchart
 #' @export
 #' @examples
-#' data(cars)
-#' barchart(cars)
+#' data(titanic)
+#' barchart(titanic)
 
 barchart = function(data){
 
@@ -30,13 +30,21 @@ barchart = function(data){
     # Change to percentage
     if(prop){
       p = ggplot2::ggplot(data = temp, ggplot2::aes_string(x = X)) + ggplot2::geom_bar(ggplot2::aes(y = (..count..)/sum(..count..))) + ggplot2::ylab("proportion") + ggplot2::ylim(0, 1)
+
       }
 
     print(p)
 
     # Print syntax for button click
-    if(show){
+    if(show == 1 & prop == 0){
+      cat("\014")
       cat(paste('ggplot(data = ', dataname, ', aes(x = ', X, ')) + \n geom_bar() \n\n', sep = ""))
+    }
+
+    # Print syntax for button click
+    if(show & prop){
+      cat("\014")
+      cat(paste('ggplot(data = ', dataname, ', aes(x = ', X, ')) + \n geom_bar( aes(y = (..count..)/sum(..count..)) ) + \n ylim(0, 1) \n\n', sep = ""))
     }
   },
 
