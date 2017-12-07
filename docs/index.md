@@ -41,18 +41,27 @@ Here are some tools and resources for you to further your own understanding and 
 ## Maps
 
 - [How to Make a Better Map—Using Neuroscience](https://www.citylab.com/design/2014/11/how-to-make-a-better-map-according-to-science/382898/) &mdash; How advances in brain science and cognitive psychology can be applied to mapmaking.
-- [Making Maps with R](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html) &mdash; Tutorial for creating choropleth maps, and using ggmaps
+- [Making Maps with R](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html) &mdash; Tutorial for creating choropleth maps, and using ggmaps.
 
 
 ### R Packages and Functions for Mapping
 
 - [ggmap](https://github.com/dkahle/ggmap) &mdash; ggmap makes it easy to retrieve raster map tiles from popular online mapping services like Google Maps, OpenStreetMap, Stamen Maps, and plot them using the ggplot2 framework.
 - [Leaflet for R](https://rstudio.github.io/leaflet/) &mdash; Leaflet is one of the most popular open-source JavaScript libraries for interactive maps. It’s used by websites ranging from The New York Times and The Washington Post to GitHub and Flickr, as well as GIS specialists like OpenStreetMap, Mapbox, and CartoDB.
-- [ggplot2 Map Theme](https://gist.github.com/briatte/4718656) &mdash; Two good backgrounds and themes for maps
+- [ggplot2 Map Theme](https://gist.github.com/briatte/4718656) &mdash; Two good backgrounds and themes for maps.
 
 <br /><br />
 
-### Other Avenues
+## Markdown Resources
+
+- [Tufte Style](https://github.com/rstudio/tufte) &mdash; Tufte styles for R Markdown documents. See an example at http://rstudio.github.io/tufte/
+- [rticles](https://github.com/rstudio/rticles) &mdash; The `rticles` package provides a suite of custom R Markdown LaTeX formats and templates for various formats.
+- [xaringan slides](https://github.com/yihui/xaringan) &mdash; Porting the JavaScript library `remark.js` for slideshows into R.
+- [bookdown](https://github.com/rstudio/bookdown) &mdash; A open-source (GPL-3) R package to facilitate writing books and long-form articles/reports with R Markdown.
+
+<br /><br />
+
+## Other Avenues
 
 
 - [DataCamp](https://www.datacamp.com/) &mdash; Learn Data Science online. Master data analysis from the comfort of your browser, at your own pace, tailored to your needs and expertise. Whether you want to learn R, Python or Data Visualization, we want to help!
