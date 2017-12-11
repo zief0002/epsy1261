@@ -18,7 +18,6 @@ Here are some tools and resources for you to further your own understanding and 
 - [Data Visualization for Social Science: A Practical Introduction with R and ggplot2](http://socviz.co/) &mdash; Book we used in EPsy 1261
 - [Data Journalism Handbook v.1](http://datajournalismhandbook.net/1.0/en/)
 
-
 <!--- [Statistical Thinking: A Simulation Approach to Modeling Uncertainty](https://zief0002.github.io/statistical-thinking/) &mdash; Book and materials for EPsy 3264: Basic and Applied Statistics -->
 
 ### Tutorials
@@ -26,6 +25,10 @@ Here are some tools and resources for you to further your own understanding and 
 - [Storybench: Getting Started with Data Visualization in R using ggplot2](http://www.storybench.org/getting-started-data-visualization-r-using-ggplot2/)
 - [ProPublica Data Institute 2017](https://projects.propublica.org/graphics/data-institute-2017#institute-curriculum) &mdash; Materials from an intensive workshop on how to use data, design and code for journalism. From June 7th to 21st in New York City.
 
+### Cheatsheets
+
+- [ggplot Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+- [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 
 <br /><br />
 
@@ -35,6 +38,7 @@ Here are some tools and resources for you to further your own understanding and 
 - [ggthemes](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) &mdash; Some extra geoms, scales, and themes for ggplot
 - [hrbrthemes](https://github.com/hrbrmstr/hrbrthemes) &mdash; Additional Themes and Theme Components for ggplot
 - [ggplot2 Extensions Gallery](http://www.ggplot2-exts.org/gallery/) &mdash; Gallery of add-on packages to extend the functionality of ggplot
+- [Rokeman](https://github.com/schochastics/Rokemon) &mdash; An R package to create Pokemon inspired ggplots. It also comes with dataset of 801 Pokemon with 41 different features (Gotta analyze'em all!).
 
 <br /><br />
 
@@ -67,3 +71,4 @@ Here are some tools and resources for you to further your own understanding and 
 - [DataCamp](https://www.datacamp.com/) &mdash; Learn Data Science online. Master data analysis from the comfort of your browser, at your own pace, tailored to your needs and expertise. Whether you want to learn R, Python or Data Visualization, we want to help!
 - [Kaggle Competitions](https://www.kaggle.com/competitions) &mdash; Challenge yourself with real-world machine learning problems; tutorials, datasets, and more
 - [Twin Cities R Users Group](https://www.meetup.com/twincitiesrug/) &mdash; The Twin Cities R User Group is the local R user group for Minneapolis and St. Paul. R is an open-source language for statistical computing, and can be used for much more than that. We have a monthly talks from our members, and encourage an atmosphere that welcomes novice and experienced users. Hope to see you there!
+- [Data Stories](http://datastori.es/) &mdash; A podcast on data visualization with Enrico Bertini and Moritz Stefaner
